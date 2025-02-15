@@ -1,0 +1,6 @@
+mailer/
+node_modules/
+.env
+*.log
+*.sql
+config.php  # If it contains sensitive data
