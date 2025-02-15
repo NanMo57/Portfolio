@@ -1,0 +1,19 @@
+#Content{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    background:linear-gradient(to bottom, #20202ad2 ,#20202aef, #20202a) , url('https://miller.bslthemes.com/arter-demo/img/bg.jpg');
+    background-attachment:fixed;
+    background-position:center top 75%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    padding: 50px 50px 0 60px;
+    width:calc(1470px - 290px) !important;
+    max-width:calc(1470px - 290px) !important;
+    min-width:calc(1470px - 290px) !important;
+}
+
+#Content > div{
+    min-height: calc(100vh - 50px) !important;
+}

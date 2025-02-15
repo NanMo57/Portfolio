@@ -1,0 +1,97 @@
+.lightStar , #Content #Performance_Metrics b{
+    color: var(--orange) !important;
+}
+#Content #Recommendations .card .rate i , #Content #Recommendations .card > p{
+    font-size: 15px;
+}
+#Content #Services .card , #Content #Recommendations .card { 
+    background-color: var(--light_blue) !important;
+    width: 320px !important;
+    height: 265px !important;
+}
+
+/***************************************************/
+
+#Content #WelcomeBlock{
+    margin-top: 25px;
+}
+#Content #WelcomeBlock::before{
+    content: '';
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    width: 90%;
+    height: 400px;
+    background-color: var(--dark_blue);
+    transform: translateX(-50%);
+    box-shadow: 0rem 1.5rem var(--light_blue);
+}
+
+/***************************************************/
+
+#Content #WelcomeBlock > div:first-of-type{
+    height: 400px;
+    max-height: 400px;
+    overflow: hidden;
+    z-index: 0;
+}
+#Content #WelcomeBlock > div:first-of-type:before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#1f1f28a6;
+    z-index: 2;
+}
+#Content #WelcomeBlock div:first-of-type img{
+    width: 100vw;
+    height: 700px;
+    top: -170px;
+    z-index: 1;
+    filter: brightness(80%) contrast(90%);
+}
+
+/***************************************************/
+
+#Content #WelcomeBlock .info h2{
+    font-size: 50px !important;
+    max-width: 100%;
+}
+#Content #WelcomeBlock .info > div img {
+    height: 425px;
+    width: 325px;
+    top:-10px;
+    right:0px;
+}
+
+/***************************************************/
+
+#Content #Services .card p{
+    font-size: 13px;
+}
+
+/***************************************************/
+
+#Content #Recommendations img{
+    width: 50px;
+    height:50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    z-index: 1000000;
+    top:-25px;
+}
+#Content #Recommendations .card > p{
+    max-height: 120px;
+    height: 120px;  
+    color:var(--light_gray);
+}
+#Content #Recommendations .card .rate{
+    background-color: var(--dark_blue);
+}
+#Content #Recommendations .card .rate i{
+    color: var(--light_blue);
+}
+
+

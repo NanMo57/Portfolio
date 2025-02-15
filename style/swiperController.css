@@ -1,0 +1,22 @@
+#Content #Recommendations .swiper{
+    height: fit-content !important;
+}
+#Content #Recommendations .swiper-wrapper{
+    height: fit-content !important;
+}
+#Content #Recommendations .swiper-slide{
+    width: 320px !important;
+    height: 265px !important;
+    margin-top: 40px;
+}
+#Content #Recommendations .swiper-pagination-bullet{
+    width: 13px;
+    border-radius: 20px;
+}
+#Content #Recommendations .swiper-pagination-bullet-active {
+    background-color: var(--orange);
+    width: 25px;
+}
+#Content #Recommendations .swiper-button-next:after, #Content #Recommendations .swiper-button-prev:after{
+    font-size: 15px !important;
+}

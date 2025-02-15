@@ -1,0 +1,55 @@
+#portfolioNav li.active , #portfolioNav li:hover{
+    background-color:var(--orange) !important;
+    color: var(--dark_blue);
+    cursor: pointer;
+}
+#Portfolio li{
+    list-style-type:circle !important;
+}
+#Portfolio .card{
+    max-width:300px;
+    min-width: 300px;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+}
+#Portfolio .card img{
+    width: 100%;
+    height: 200px;
+}
+#Portfolio .card-body{
+    background-color: var(--dark_blue);
+    width: 100%;
+    padding-top: 8px !important;
+}
+#Portfolio .card-body > div{
+    position: absolute;
+    display: none;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #20202adb;
+}
+#Portfolio .card-body > div a{
+    background-color: var(--orange);
+    color: var(--dark_blue) !important;
+}
+#Portfolio .card-body > div a:hover{
+    background-color: #ffc1059c;
+    color: #20202adb;
+    cursor: pointer;
+}
+#Portfolio .card-body:hover > div{
+    display: flex;
+    cursor: pointer;
+}
+#Portfolio .card-body .card-footer{
+    text-align: center;
+    background-color: var( --light_blue);
+    font-size: 10px;
+    color: var(--orange);
+}
+#Portfolio .card a{
+    color: var(--dark_blue);
+}

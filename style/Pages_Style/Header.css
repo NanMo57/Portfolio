@@ -1,0 +1,62 @@
+header #viewHideButton > i , header .closeMark{
+    font-size: 20px;
+}
+header #LangTranslate div > * , header nav li , header li span{
+    font-size: 13px;
+}
+header nav li , header li span{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+/***************************************************/
+
+header *{
+    transition: all 2s linear !important;
+}
+
+/***************************************************/
+
+header #viewHideButton{
+    background-color: var(--light_blue);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+header #closeMenu{
+    float: left;
+    padding-left: 20px;
+}
+
+/***************************************************/
+
+header #activeList{
+    display: inline-block;
+    transform: rotate(90deg) translate(21px, 2px);
+    margin-top: 20px;
+}
+
+/***************************************************/
+
+header nav{
+    width: 300px;
+    padding-top: 40%;
+    transition: all 0.7s linear;
+    
+}
+header nav li {
+    padding: 10px 8px;
+    cursor: pointer;
+}
+
+/***************************************************/
+
+header #LangTranslate{
+    background-color: var(--light_blue);
+    padding-top: 10px;
+    padding-bottom: 8px;
+    gap: 15px;
+}
+header #LangTranslate div{
+    background-color: var(--dark_blue);
+    padding: 5px 8px;
+}

@@ -1,0 +1,40 @@
+form{
+    background-color: var(--light_blue);
+    padding: 20px;
+}
+form input::placeholder{
+    color: var(--light_gray);
+}
+form span{
+    background-color: var(--dark_blue) !important;
+}
+form span:last-of-type{
+    align-items: flex-start !important;
+}
+form textarea{
+    height: 350px;
+}
+form button{
+    background: var(--orange);
+    color:var(--dark_blue) !important;
+    border: none !important;
+}
+form .input-group , form .form-control , form .input-group-text{
+    border: none !important;
+}
+form .form-control{
+    background-color: #22222dfa !important;
+    outline: none !important;
+    color: white !important;
+}
+
+form .input-group-text{
+    padding: 1rem 1rem;
+}
+form .input-group-text i{
+    color:var(--light_gray);
+}
+.active-input-group,.active-input-group i{
+    background: var(--orange) !important;
+    color:var(--dark_blue) !important;
+}
